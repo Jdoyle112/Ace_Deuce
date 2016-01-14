@@ -1,0 +1,70 @@
+#rules {
+	display: none;
+}
+
+body {
+	font-family: 'Lato';
+}
+
+img {
+	width: 30%;
+	height: 30%;
+	margin: 0 auto;
+}
+
+.heading {
+	color: white;
+	background-color: #369;
+	padding: 3%;
+}
+
+.heading button {
+	margin-bottom: 10px;
+	padding: 10px 25px;
+	border-radius: 3px;
+	background-color: white;
+	color: #369;
+}
+
+a {
+	color: white;
+}
+
+.content {
+	text-align: center;
+}
+
+.account h4 {
+	float: right;
+}
+
+.buttons {
+	padding: 3%;
+}
+
+.buttons button {
+	padding: 10px 35px;
+	border-radius: 3px;
+	background-color: #369;
+	color: white;
+}
+
+input {
+	height: 44px;
+}
+
+#deal {
+	float: right;
+	background-color: red !important;
+}
+
+
+
+
+
+
+
+
+
+
+

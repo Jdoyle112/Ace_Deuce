@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container-fluid heading">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>Ace Deuce Game</h1>
+				<button type="button" id="rules_button">Show Rules</button>
+				<p id="rules">The rules of the game are simple. Each turn, two cards will appear on the screen. The point of the game is to bet on whether the next card will be in between the two cards on the screen. <br><br>
+
+				Betting: You have the choice to bet or pass. If you wish to bet, enter the amount and click "bet". If you wish to pass, simply press "Deal".  *Your bet can never exceed half of the amount of the money you have in your account. <br><br>
+
+			  	Winning: You win the amount you bet if your card is in between the two other cards. <br><br>
+
+			  	Losing: You lose if either your card is outside of the cards on the screen, or if your card matches one of the cards on the screen. In that case, you pay double to the pot! <br><br>
+
+			  	Game Over: The game ends when you lose all of your money. <br><br>
+
+			  	<a href="#" id="less">Hide Rules</a>
+			  	</p>
+		  </div>
+		  <div class="col-sm-6 account">
+		  	<h4>Your Account: <span id="money"></span></h4>
+  			
+		  </div>
+	</div>
+  </div>
+
+  <div class="container buttons">
+	  <div class="row">
+	  	<div class="col-sm-6">
+	  		<button id="deal">Deal</button>
+	  	</div>
+	  	<div class="col-sm-6">
+	  		<form>
+	  			<input type="number" id="input">
+	  			<button id="bet" type="submit">Bet</button>
+	  		</form>
+	  	</div>
+  	</div>
+  </div>
+
+  <div class="container content">
+  	<div class="col-sm-6 col-sm-offset-3 user_card">
+  		<h2>Your Card</h2>
+  		<img id="cardUser" src="#">
+  	</div>
+  	<div class="row">
+	  	<div class="col-sm-6">
+	  		<h2>1st Card</h2>
+	  		<img id="cardOne" src="#">
+	  	</div>
+	  	<div class="col-sm-6">
+	  		<h2>2nd Card</h2>
+	  		<img id="cardTwo" src="#">
+	  	</div>
+  </div>
+</body>
+</html>
